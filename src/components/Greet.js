@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-function Greet() {
+const Greet=props=>{
+  const {name, username}= props  // console.log(props)
+
   return (
-    <h1>How are you</h1>
-  )
-}
+    <div>
+      <h1>
+        Hello {name}, Your user name is {username}.
+      </h1>
+      {/* {props.children} */}
+    </div>
+  );
 
-export default Greet
+}
+export default Greet;
