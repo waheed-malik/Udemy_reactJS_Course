@@ -5,6 +5,10 @@ import Answer from './components/Answer';
 import Welcome from './components/Welcome';
 import Hello from './components/JSX';
 import Message from './components/Message';
+import ClickFunction from './components/ClickFunction';
+import ClickClass from './components/ClickClass';
+import EventBind from './components/EventBind';
+import ParentComponents from './components/ParentComponents';
 function App() {
   return (
     <div className="App">
@@ -21,7 +25,19 @@ function App() {
       <Welcome name="Billy" username="Waheed"/>
       <Hello />
       <Message /> */}
-      <Greet name="Brim" username="Hussain"  />
+
+      {/*  Destructing props & state*/}
+      {/* <Welcome name="Brim" username="Hussain"  /> */}
+
+      {/* Event handling */}
+      {/* <ClickFunction /> */}
+      {/* <ClickClass /> */}
+
+      {/* EventBind */}
+      {/* <EventBind /> */}
+
+      {/* Method Props */}
+      <ParentComponents />
     </div>
   );
 }
