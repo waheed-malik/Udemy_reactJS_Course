@@ -9,6 +9,9 @@ import ClickFunction from './components/ClickFunction';
 import ClickClass from './components/ClickClass';
 import EventBind from './components/EventBind';
 import ParentComponents from './components/ParentComponents';
+import UserGreeting from './components/UserGreeting';
+import NameeLists from './components/NameeLists';
+import Form from './components/Form'
 function App() {
   return (
     <div className="App">
@@ -37,8 +40,16 @@ function App() {
       {/* <EventBind /> */}
 
       {/* Method Props */}
-      <ParentComponents />
-    </div>
+      {/* <ParentComponents /> */}
+
+      {/* conditional rendering */}
+      {/* <UserGreeting /> */}
+
+      {/* List Rendering */}
+      {/* <NameeLists/>   */}
+
+     <Form/>
+ </div>
   );
 }
 
